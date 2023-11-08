@@ -20,10 +20,10 @@ FEWS is a First_Edge_Wedge Sampling sampling algorithm, which is used to approxi
 	The FEWS algorithm approximately counts global triangles in large graph streams. The datasets are in .txt format, where each dataset contains three pieces of information {source node, destination node, edge addition/deletion}. The real datasets we use in the paper can be downloaded from the following website: http://snap.stanford.edu.
 
 
-3.The correct usage position
+3.The usage attention
 
-    We should run the program by executing the command in the 'FEMW_Counter/cmake-build-debug' directory.
-    And make sure your C++ build environment has the boost 1_55_0 library
+    Make sure your C++ build environment has the boost 1_55_0 library.
+    CMake,and run our program in the 'FEMW_Counter/cmake-build-debug' directory.
     
     
 4.Parameter Settings
