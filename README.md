@@ -63,7 +63,7 @@ The format of a parameter of FEWS in the command line is a pair of strings, here
 
 Running test:
 
-	$ ./FEMW_Counter -g example.txt -method O -budget 20000 -M 18000 -fw 0.8 -T 10 -seed 1
+	$ ./FEWS_Counter -g example.txt -method O -budget 20000 -M 18000 -fw 0.8 -T 10 -seed 1
 
     Input files:
 		A insertion-only graph dataset: example.txt
@@ -74,7 +74,7 @@ Running test:
 
 Running test:
 
-	$ ./FEMW_Counter -g example.txt -method I -budget 20000 -M 18000  -fw 0.8 -seed 1
+	$ ./FEWS_Counter -g example.txt -method I -budget 20000 -M 18000  -fw 0.8 -seed 1
 
     Input files:
 		A insertion-only graph dataset: example.txt
@@ -86,7 +86,7 @@ Running test:
 
 Running test:
 
-	$ ./FEMW_Counter -g example_FD.txt -method F -budget 20000 -fw 0.8 -M 18000 -seed 1.
+	$ ./FEWS_Counter -g example_FD.txt -method F -budget 20000 -fw 0.8 -M 18000 -seed 1.
 
 	Input files:
 		A fully-dynamic graph dataset: example_FD.txt
