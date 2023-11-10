@@ -23,8 +23,7 @@ FEWS is a First_Edge_Wedge Sampling sampling algorithm, which is used to approxi
 3.The usage attention
 
     Make sure your C++ build environment has the boost 1_55_0 library.
-    CMake,and run our program in the 'FEWS_Counter/cmake-build-debug' directory.
-    
+    CMake,Build and run our program in the 'FEWS_Counter/cmake-build-debug' directory.
     
 4.Parameter Settings
 
