@@ -27,33 +27,33 @@ FEWS is a First_Edge_Wedge Sampling sampling algorithm, which is used to approxi
     
 4.Parameter Settings
 
-The format of a parameter of FEWS in the command line is a pair of strings, here we denote the pair as (-p, [q]) or (-p,<q>). String p is the name of the parameter. String q is the value of the parameter input in the command line. [q] represents that the parameter is a optional parameter. <q> represents that the parameter is a necessary parameter.
+The format of a parameter of FEWS in the command line is a pair of strings, here we denote the pair as (-p : [q]) or (-p : q). String p is the name of the parameter. String q is the value of the parameter input in the command line. [q] represents that the parameter is a optional parameter. q represents that the parameter is a necessary parameter.
 
-@parameter (-g,<graph.txt>)
+@parameter (-g : [graph.txt])
 
 	Parameter 'g' gives the file name of a dataset. For example, '-g'="exapmle.txt", example.txt is a text file.
 
-@parameter (-method,[method])
+@parameter (-method: [method])
 
 	Parameter 'method' selects the counting method during the experimental test.
 
-@parameter (-budget, <memory-cost>)
+@parameter (-budget : [memory-cost])
 
 	The maximum number of edges our program can store.
 	
-@parameter (-M, <reservoir-size>)
+@parameter (-M :[reservoir-size])
 
 	The initial allocated size of our reservoir, its length should not exceed budget.
 	
-@parameter (-seed, [random seed])
+@parameter (-seed:  [random seed])
 
 	Parameter 'seed' determines the number of experiments for this method. In fact, it is for multiple experiments to reduce experimental errors. 
 
-@parameter (-T, <max-neighborList-size>)
+@parameter (-T:  max-neighborList-size)
 
 	The max size of NeiborList
 	
-@parameter (-fw, <first-weight of neighborList>)
+@parameter (-fw:  first-weight of neighborList)
 
 	the probability of a neighbor sampled in NeiborList
 
